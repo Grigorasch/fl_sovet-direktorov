@@ -239,7 +239,6 @@ body {
 
 .board {
   margin: 0 auto 310px;
-  width: 940px;
   text-align: center;
 }
 .board__heading {
@@ -252,6 +251,7 @@ body {
 .board__container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   row-gap: 72px;
   column-gap: 60px;
   margin-bottom: 130px;
@@ -277,8 +277,8 @@ body {
   display: flex;
   align-items: center;
   padding-left: 25px;
-  width: 440px;
-  height: 215px;
+  width: 600px;
+  height: 250px;
   background: rgba(255, 255, 255, 0.49);
   box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
