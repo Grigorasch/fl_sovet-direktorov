@@ -43,22 +43,8 @@ body {
   text-decoration: none;
   transition: 0.3s;
 }
-.links-list__item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -10px;
-  width: 100%;
-  height: 3px;
-  background: #000000;
-  opacity: 0;
-  transition: 0.3s;
-}
 .links-list__item:hover {
   color: #000000;
-}
-.links-list__item:hover::before {
-  opacity: 1;
 }
 .links-list_footer-mod {
   max-width: 770px;
